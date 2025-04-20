@@ -1,0 +1,197 @@
+/*Custom CSS*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.body {
+    background-color: #ecf2ff;
+}
+
+.form-container {
+    height: 750px;
+    display: block;
+    align-content: center;
+}
+.form-popup {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  background-color:white;
+  justify-self: center;
+  border-radius: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.inner-box-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #6a43fc, #322ce9);
+    color: white;
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.inner-box-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #303b59;
+    max-height: 300px;
+    width: 300px;
+    justify-self: right;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.inner-circle {
+    position: relative;
+    justify-self: center;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, #4b25cd, #4633eb);
+}
+
+.title {
+    font-family: 'Medium';
+    color: inherit;
+    font-size: 21px;
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    color: inherit; 
+    font-size: 14px; 
+    font-family: 'Medium'; 
+    justify-self: center;
+    text-align: center;
+    opacity: 50%;
+    width: 80%;
+    position: relative;
+    margin-block-start: 0px;
+    margin-block-end: 0em;
+}
+
+.score {
+    font-family: 'Bold';
+    font-size: 56px;
+    text-align: center;
+    justify-self: center;
+    color: white;
+    position: relative;
+    margin-block-start: 30px;
+    margin-block-end: 0em;
+}
+
+.circle-text {
+    display: block;
+}
+
+.text {
+    position: absolute;
+}
+
+.scorecard-container {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.scorecard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.red {
+    background-color: #fff7f7;
+    color: #ff5655;
+}
+
+.yellow {
+    background-color: #fffaf6;
+    color: #ffb21e;
+}
+
+.green {
+    background-color: #f1fdf9;
+    color: #03bb8f;
+}
+
+.blue {
+    background-color: #f4f5ff;
+    color: #1126d5;
+}
+
+.scorecard img {
+    width: 15px;
+    margin: 20px;
+}
+
+.scorecard-message {
+    font-family: 'Bold';
+    vertical-align: middle;
+    font-size: 16px;
+    opacity: 70%;
+    width: 40%;
+}
+
+.scorecard-score {
+    font-family: 'Bold';
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #303b59;
+    width: 40%;
+}
+
+.scorecard-score em {
+    font-family: 'Medium';
+    font-style: normal;
+    opacity: 50%;
+}
+
+.button {
+    background-color: #303b59;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-family: 'Medium';
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+
+@font-face {
+    font-family: Medium;
+    src: url(assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: XTBold;
+    src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
